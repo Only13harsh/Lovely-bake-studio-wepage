@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <marquee direction="left" behavior="scroll" scrollamount="10">
+            <h1>Welcome to the Sports Arena</h1>
+        </marquee>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://www.pogo.tv/">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#standings">Standings</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Latest Sports News</h2>
+            <article>
+                <h3>Game Highlights</h3>
+                <p>Watch the latest game highlights and amazing plays from our featured sports events.</p>
+                <video controls autoplay muted class="my_video" playsinline>
+                    <source src="https://www.youtube.com/watch?v=P4Kk60jUn9Y&pp=ygUOZ2FtZSBoZWlsaWdodHM%3D.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
+            <article>
+                <h3>Sports Charts</h3>
+                <p>Check out the latest sports statistics and charts below:</p>
+                <p><img src="https://1.bp.blogspot.com/-9Z7oylnqrPo/WGUA87w-3uI/AAAAAAAAAGg/kDd7UVPWNvg9oGTdNzpy5y4FujKEb43GwCLcB/s1600/Outdoor%2BSports.jpg"</p>
+                <canvas id="sportsChart" width="400" height="200"></canvas>
+            </article>
+        </section>
+        <section id="news">
+            <h2>News</h2>
+            <article>
+                <h3>Breaking News</h3>
+                <p>Stay updated with the latest sports news and scores.</p>
+            </article>
+        </section>
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <article>
+                <h3>Upcoming Games</h3>
+                <p>View the schedule of upcoming sports events and games.</p>
+            </article>
+        </section>
+        <section id="standings">
+            <h2>Standings</h2>
+            <article>
+                <h3>Team Standings</h3>
+                <p>Check out the current standings of your favorite sports teams.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Sports Website</p>
+    </footer>
+    <script src=""></script>
+</body>
+</html>
